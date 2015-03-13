@@ -45,7 +45,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w3C-UV-RAk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="409.5" y="498"/>
+            <point key="canvasLocation" x="373" y="423"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -103,6 +103,15 @@
                                     <rect key="frame" x="248" y="187" width="136" height="100"/>
                                 </variation>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label #2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kEe-CA-gwt">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="21" y="470" width="349" height="50"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -112,6 +121,7 @@
                                 <exclude reference="Fof-Ev-Izh"/>
                                 <exclude reference="VMJ-rR-Faj"/>
                                 <exclude reference="1tg-Qn-SoM"/>
+                                <exclude reference="kEe-CA-gwt"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -121,6 +131,7 @@
                                 <include reference="Fof-Ev-Izh"/>
                                 <include reference="VMJ-rR-Faj"/>
                                 <include reference="1tg-Qn-SoM"/>
+                                <include reference="kEe-CA-gwt"/>
                             </mask>
                         </variation>
                     </view>
@@ -131,11 +142,12 @@
                         <outlet property="enterNameTextField" destination="eaV-xq-iS2" id="Y61-m9-rGQ"/>
                         <outlet property="mailButton" destination="Fof-Ev-Izh" id="8aY-kC-beW"/>
                         <outlet property="messageLabel" destination="VMJ-rR-Faj" id="bal-2g-Zni"/>
+                        <outlet property="messageSecondLabel" destination="kEe-CA-gwt" id="w6s-ph-iyK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1272" y="442"/>
+            <point key="canvasLocation" x="1185" y="423"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Klx-kp-UuK">
